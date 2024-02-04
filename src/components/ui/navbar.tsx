@@ -6,12 +6,7 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], weight: ["700"] });
 
 const Navbar = () => {
   return (
-    <nav
-      className={cn(
-        spaceGrotesk.className,
-        "bg-transparent p-4 fixed w-full top-0 z-50"
-      )}
-    >
+    <nav className={cn("bg-transparent p-4 fixed w-full top-0 z-50")}>
       <div className="container mx-auto flex justify-between items-center">
         <div
           className={cn(
